@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D29BAF4F1A8D7BE2004995BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BAF4E1A8D7BE2004995BF /* main.m */; };
+		D29BAF521A8D7BE2004995BF /* CurtziExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BAF511A8D7BE2004995BF /* CurtziExampleAppDelegate.m */; };
+		D29BAF551A8D7BE2004995BF /* CurtziExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29BAF541A8D7BE2004995BF /* CurtziExampleViewController.m */; };
+		D29BAF581A8D7BE2004995BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29BAF561A8D7BE2004995BF /* Main.storyboard */; };
+		D29BAF5A1A8D7BE2004995BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29BAF591A8D7BE2004995BF /* Images.xcassets */; };
+		D29BAF5D1A8D7BE2004995BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29BAF5B1A8D7BE2004995BF /* LaunchScreen.xib */; };
+		D29BAF811A8D7D17004995BF /* libCurtziSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D29BAF7E1A8D7D17004995BF /* libCurtziSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D29BAF491A8D7BE2004995BF /* Curtzi-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curtzi-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29BAF4D1A8D7BE2004995BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29BAF4E1A8D7BE2004995BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D29BAF501A8D7BE2004995BF /* CurtziExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurtziExampleAppDelegate.h; sourceTree = "<group>"; };
+		D29BAF511A8D7BE2004995BF /* CurtziExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurtziExampleAppDelegate.m; sourceTree = "<group>"; };
+		D29BAF531A8D7BE2004995BF /* CurtziExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurtziExampleViewController.h; sourceTree = "<group>"; };
+		D29BAF541A8D7BE2004995BF /* CurtziExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurtziExampleViewController.m; sourceTree = "<group>"; };
+		D29BAF571A8D7BE2004995BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D29BAF591A8D7BE2004995BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D29BAF5C1A8D7BE2004995BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D29BAF761A8D7D17004995BF /* Curtzi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curtzi.h; sourceTree = "<group>"; };
+		D29BAF771A8D7D17004995BF /* CZConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZConnectivity.h; sourceTree = "<group>"; };
+		D29BAF781A8D7D17004995BF /* CZLocationServicesAuthorizationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLocationServicesAuthorizationDelegate.h; sourceTree = "<group>"; };
+		D29BAF791A8D7D17004995BF /* CZSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZSpace.h; sourceTree = "<group>"; };
+		D29BAF7A1A8D7D17004995BF /* CZSpaceLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZSpaceLocation.h; sourceTree = "<group>"; };
+		D29BAF7B1A8D7D17004995BF /* CZTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTag.h; sourceTree = "<group>"; };
+		D29BAF7C1A8D7D17004995BF /* CZVisit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZVisit.h; sourceTree = "<group>"; };
+		D29BAF7D1A8D7D17004995BF /* CZVisitLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZVisitLocation.h; sourceTree = "<group>"; };
+		D29BAF7E1A8D7D17004995BF /* libCurtziSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCurtziSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29BAF461A8D7BE2004995BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29BAF811A8D7D17004995BF /* libCurtziSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D29BAF401A8D7BE2004995BF = {
+			isa = PBXGroup;
+			children = (
+				D29BAF4B1A8D7BE2004995BF /* Curtzi-Example */,
+				D29BAF4A1A8D7BE2004995BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29BAF4A1A8D7BE2004995BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29BAF491A8D7BE2004995BF /* Curtzi-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29BAF4B1A8D7BE2004995BF /* Curtzi-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D29BAF721A8D7C41004995BF /* CurtziSDK */,
+				D29BAF501A8D7BE2004995BF /* CurtziExampleAppDelegate.h */,
+				D29BAF511A8D7BE2004995BF /* CurtziExampleAppDelegate.m */,
+				D29BAF531A8D7BE2004995BF /* CurtziExampleViewController.h */,
+				D29BAF541A8D7BE2004995BF /* CurtziExampleViewController.m */,
+				D29BAF561A8D7BE2004995BF /* Main.storyboard */,
+				D29BAF591A8D7BE2004995BF /* Images.xcassets */,
+				D29BAF5B1A8D7BE2004995BF /* LaunchScreen.xib */,
+				D29BAF4C1A8D7BE2004995BF /* Supporting Files */,
+			);
+			path = "Curtzi-Example";
+			sourceTree = "<group>";
+		};
+		D29BAF4C1A8D7BE2004995BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29BAF4D1A8D7BE2004995BF /* Info.plist */,
+				D29BAF4E1A8D7BE2004995BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D29BAF721A8D7C41004995BF /* CurtziSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D29BAF751A8D7D17004995BF /* headers */,
+				D29BAF7E1A8D7D17004995BF /* libCurtziSDK.a */,
+			);
+			path = CurtziSDK;
+			sourceTree = "<group>";
+		};
+		D29BAF751A8D7D17004995BF /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				D29BAF761A8D7D17004995BF /* Curtzi.h */,
+				D29BAF771A8D7D17004995BF /* CZConnectivity.h */,
+				D29BAF781A8D7D17004995BF /* CZLocationServicesAuthorizationDelegate.h */,
+				D29BAF791A8D7D17004995BF /* CZSpace.h */,
+				D29BAF7A1A8D7D17004995BF /* CZSpaceLocation.h */,
+				D29BAF7B1A8D7D17004995BF /* CZTag.h */,
+				D29BAF7C1A8D7D17004995BF /* CZVisit.h */,
+				D29BAF7D1A8D7D17004995BF /* CZVisitLocation.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29BAF481A8D7BE2004995BF /* Curtzi-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29BAF6C1A8D7BE2004995BF /* Build configuration list for PBXNativeTarget "Curtzi-Example" */;
+			buildPhases = (
+				D29BAF451A8D7BE2004995BF /* Sources */,
+				D29BAF461A8D7BE2004995BF /* Frameworks */,
+				D29BAF471A8D7BE2004995BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curtzi-Example";
+			productName = "Curtzi-Example";
+			productReference = D29BAF491A8D7BE2004995BF /* Curtzi-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29BAF411A8D7BE2004995BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					D29BAF481A8D7BE2004995BF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D29BAF441A8D7BE2004995BF /* Build configuration list for PBXProject "Curtzi-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D29BAF401A8D7BE2004995BF;
+			productRefGroup = D29BAF4A1A8D7BE2004995BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29BAF481A8D7BE2004995BF /* Curtzi-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29BAF471A8D7BE2004995BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29BAF581A8D7BE2004995BF /* Main.storyboard in Resources */,
+				D29BAF5D1A8D7BE2004995BF /* LaunchScreen.xib in Resources */,
+				D29BAF5A1A8D7BE2004995BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29BAF451A8D7BE2004995BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29BAF551A8D7BE2004995BF /* CurtziExampleViewController.m in Sources */,
+				D29BAF521A8D7BE2004995BF /* CurtziExampleAppDelegate.m in Sources */,
+				D29BAF4F1A8D7BE2004995BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D29BAF561A8D7BE2004995BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29BAF571A8D7BE2004995BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D29BAF5B1A8D7BE2004995BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29BAF5C1A8D7BE2004995BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29BAF6A1A8D7BE2004995BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D29BAF6B1A8D7BE2004995BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29BAF6D1A8D7BE2004995BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Curtzi-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Curtzi-Example/CurtziSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D29BAF6E1A8D7BE2004995BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Curtzi-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Curtzi-Example/CurtziSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29BAF441A8D7BE2004995BF /* Build configuration list for PBXProject "Curtzi-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29BAF6A1A8D7BE2004995BF /* Debug */,
+				D29BAF6B1A8D7BE2004995BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29BAF6C1A8D7BE2004995BF /* Build configuration list for PBXNativeTarget "Curtzi-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29BAF6D1A8D7BE2004995BF /* Debug */,
+				D29BAF6E1A8D7BE2004995BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29BAF411A8D7BE2004995BF /* Project object */;
+}

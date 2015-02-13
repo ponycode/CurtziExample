@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Curtzi Example View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CurtziExampleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Curtzi Example Project" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpz-bh-KiX">
+                                <rect key="frame" x="147" y="221" width="306.5" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="au7-uF-z1l">
+                                <rect key="frame" x="253" y="257" width="94.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connectivity Status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwz-5r-L0r">
+                                <rect key="frame" x="232" y="285" width="136" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGI-pT-8HD">
+                                <rect key="frame" x="225" y="307" width="151" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="Best Feature Ever">
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickBestFeatureEverButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="354-Xs-Qec"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit Information" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YrT-Bb-UOT">
+                                <rect key="frame" x="234" y="358" width="133" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62739158159999997" green="0.2290012085" blue="0.1051867593" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YrT-Bb-UOT" firstAttribute="centerX" secondItem="wpz-bh-KiX" secondAttribute="centerX" constant="-0.25" id="1Hm-nC-FHH"/>
+                            <constraint firstAttribute="centerY" secondItem="wpz-bh-KiX" secondAttribute="centerY" constant="61.5" id="IQX-CO-eVw"/>
+                            <constraint firstItem="au7-uF-z1l" firstAttribute="top" secondItem="wpz-bh-KiX" secondAttribute="bottom" constant="1" id="JYo-xh-SyD"/>
+                            <constraint firstItem="BGI-pT-8HD" firstAttribute="top" secondItem="dwz-5r-L0r" secondAttribute="bottom" constant="1.5" id="MyX-dF-sU9"/>
+                            <constraint firstItem="dwz-5r-L0r" firstAttribute="centerX" secondItem="au7-uF-z1l" secondAttribute="centerX" constant="-0.5" id="Pcv-E0-cya"/>
+                            <constraint firstItem="dwz-5r-L0r" firstAttribute="top" secondItem="au7-uF-z1l" secondAttribute="bottom" constant="7.5" id="RbD-s4-VNt"/>
+                            <constraint firstItem="YrT-Bb-UOT" firstAttribute="top" secondItem="wpz-bh-KiX" secondAttribute="bottom" constant="102" id="Tq9-Eo-v83"/>
+                            <constraint firstItem="au7-uF-z1l" firstAttribute="centerX" secondItem="wpz-bh-KiX" secondAttribute="centerX" constant="0.25" id="Xds-5A-g20"/>
+                            <constraint firstItem="BGI-pT-8HD" firstAttribute="centerX" secondItem="dwz-5r-L0r" secondAttribute="centerX" constant="0.5" id="mjW-Iu-P1v"/>
+                            <constraint firstAttribute="centerX" secondItem="wpz-bh-KiX" secondAttribute="centerX" constant="-0.25" id="xOK-2Z-X3G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bestFeatureEverButton" destination="BGI-pT-8HD" id="DwM-z9-pUU"/>
+                        <outlet property="sdkConnectivityStatusLabel" destination="dwz-5r-L0r" id="yBQ-Sz-oRG"/>
+                        <outlet property="sdkVersionLabel" destination="au7-uF-z1l" id="8Ij-Ce-Ysr"/>
+                        <outlet property="visitInformationLabel" destination="YrT-Bb-UOT" id="bkP-y3-7NV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="382"/>
+        </scene>
+    </scenes>
+</document>
