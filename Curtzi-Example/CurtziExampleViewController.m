@@ -28,12 +28,17 @@
 	self.curtziVisits = [NSMutableArray arrayWithArray:[Curtzi visits]];
 	[self showMostRecentCurtziVisit];
 
+#if TARGET_IPHONE_SIMULATOR
+	self.sdkConnectivityStatusLabel.text = @"Location unavailable on simulator";
+	self.bestFeatureEverButton.enabled = NO;
+#else
+	self.sdkConnectivityStatusLabel.text = [self connectivityMessage:[Curtzi connectivity]];
 	[Curtzi addCurtziObserver:self];
+#endif
 	
 	self.isBestFeatureEverEnabled = [Curtzi connectivity].locationIsAuthorized;
 	
 	self.sdkVersionLabel.text = [NSString stringWithFormat:@"Curtzi SDK Version:%@", [Curtzi version]];
-	self.sdkConnectivityStatusLabel.text = [self connectivityMessage:[Curtzi connectivity]];
 	
 }
 
