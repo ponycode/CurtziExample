@@ -22,7 +22,8 @@ extern NSInteger const CurtziBeaconOutOfRangeRSSI;		// Large negative value for 
 @interface CZTag : NSObject
 
 @property (nonatomic,assign,readonly) NSInteger rssi;
-@property (nonatomic,assign,readonly) CZProximity proximity;
+@property (nonatomic,assign,readonly) CZProximity proximity;		// quantized, time-averaged proximity based on radio strength
+@property (nonatomic,assign,readonly) NSUInteger distance;			// erratic estimate, using bluetooth radio strength, in meters
 @property (nonatomic,assign,readonly) UInt16 major;
 @property (nonatomic,assign,readonly) UInt16 minor;
 @property (nonatomic,strong,readonly) NSString *uuid;
