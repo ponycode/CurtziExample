@@ -11,3 +11,7 @@ An example project implementing the Curtzi SDK
 Order a Curtzi Tag from www.curtzi.com, or clone [CurtziDemoBeacon-ios](https://github.com/ponycode/CurtziDemoBeacon-ios)
 
 Questions? Ask them at contact@curtzi.com
+
+## Supported Platform
+Curtzi SDK currently supports iOS 8.0 and later (Simulator not supported as simulator can not detect bluetooth beacons), on iPhone 4S or later, and iPad 2 or later.
+Andriod support coming soon.
